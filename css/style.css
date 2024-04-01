@@ -1,9 +1,115 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.img{
-    height: 350px !important;
-    width: 500px !important;
+/* Header */
+
+.header-index {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header-index h1 {
+  color: rgb(236, 4, 4);
+}
+
+.header-index img {
+  margin: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.header-index nav ul li {
+  border-radius: 5px;
+  background-color: rgb(128, 128, 128);
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+  list-style: none;
+  box-shadow: 2px 2px 7px rgb(141, 0, 0);
+}
+
+.header-index nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section */
+.section-index  {
+  background-color: grey;
+  text-align: center;
+}
+
+
+.section-index h2{
+    padding: 25px;
+}
+
+.contenedor .card{
+    background-color: #000;
+    color: #fff;
+}
+
+.contenedor{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.h2-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(280px ,1fr));
+}
+
+
+
+
+
+/* Footer */
+
+.footer-index {
+    background-color: #000;
+    color: #fff;
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+
+.footer-index ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.footer-index ul li a{
+    color: rgb(236, 4, 4);
+   text-decoration: none;
+}
+
+
+.footer-index img {
+    margin: 20px;
+    width: 150px;
+    height: auto;
+  }
