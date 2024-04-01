@@ -15,12 +15,14 @@
 
 .header-index h1 {
   color: rgb(236, 4, 4);
+  transition: 0.5s;
 }
 
 .header-index img {
   margin: 20px;
   width: 150px;
   height: auto;
+  transition: 0.5s;
 }
 
 .header-index nav ul li {
@@ -31,6 +33,7 @@
   padding: 5px;
   list-style: none;
   box-shadow: 2px 2px 7px rgb(141, 0, 0);
+  transition: 0.5s;
 }
 
 .header-index nav ul li a {
@@ -38,78 +41,130 @@
   text-decoration: none;
 }
 
+/*Transiciones header*/
+
+.header-index h1:hover {
+  text-shadow: 3px 3px 7px #fff;
+}
+
+.header-index img:hover {
+  box-shadow: 3px 3px 7px #fff;
+  width: 180px;
+}
+
+.header-index nav ul li:hover {
+  background-color: #000;
+  box-shadow: 3px 3px 7px #fff;
+  border: 2px solid rgb(141, 0, 0);
+  padding: 10px;
+}
+
 /* Section */
-.section-index  {
+.section-index {
   background-color: grey;
   text-align: center;
+  transition: 0.3s;
 }
 
-
-.section-index h2{
-    padding: 25px;
+.section-index h2 {
+  padding: 25px;
 }
 
-.contenedor .card{
-    background-color: #000;
-    color: #fff;
+.contenedor .card {
+  background-color: #000;
+  color: #fff;
 }
 
-.contenedor{
-    padding: 10px;
-    display: flex;
-    justify-content:space-between;
+.contenedor {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.h2-index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.h2-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .grid img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .grid {
-    width: 90%;
-    max-width: 1100px;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(280px ,1fr));
+  width: 90%;
+  max-width: 1100px;
+  margin:  auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 
+.section-creadores{
+  transition: .3s;
+}
 
+/*Transiciones section*/
+
+.section-index:hover {
+  background-color: #2b2424;
+  color: #fff;
+}
+
+.section-index .card:hover {
+  box-shadow: -3px 10px 10px #fff;
+  border: 2px solid rgb(245, 228, 0);
+}
+
+.section-creadores:hover {
+  background-color: rgb(252, 2, 252);
+  color: #fff;
+}
+
+
+.section-creadores div img:hover{
+  border: 2px solid #fff;
+}
 
 
 /* Footer */
 
 .footer-index {
-    background-color: #000;
-    color: #fff;
-   display: flex;
-   justify-content: space-between;
-   padding: 25px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
-
-.footer-index ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
+.footer-index ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
 }
 
-.footer-index ul li a{
-    color: rgb(236, 4, 4);
-   text-decoration: none;
+.footer-index ul li a {
+  color: rgb(236, 4, 4);
+  text-decoration: none;
 }
-
 
 .footer-index img {
-    margin: 20px;
-    width: 150px;
-    height: auto;
-  }
+  margin: 20px;
+  width: 150px;
+  height: auto;
+}
+
+/*Transiciones footer*/
+
+.footer-index ul li:hover{
+  background-color: #96000098;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.footer-index ul li a:hover{
+  color: #fff;
+  
+}
