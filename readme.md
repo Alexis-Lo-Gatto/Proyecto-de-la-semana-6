@@ -1,0 +1,1 @@
+Este proyecto es el trabajo de la semnana 6 de Coderhouse , una pagina web responive , con display grid y flex , mas bootstrap y Git.

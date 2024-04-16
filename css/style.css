@@ -165,6 +165,287 @@
   color: #fff;
 }
 
+
+
+/*Faltantes*/
+
+/*Header tienda*/
+
+.header-tienda {
+  background-color: #2b2424;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1;
+}
+
+.header-tienda nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.header-tienda nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-tienda h1 {
+  margin: 15px;
+}
+
+.header-tienda img {
+  width: 50px;
+  margin: 5px 15px;
+}
+
+/*Section*/
+.main-tienda {
+  background-color: #750000da;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.grid span {
+  font-weight: bolder;
+}
+
+/*Footer Tienda*/
+
+.footer-tienda {
+  display: flex;
+  background-color: rgb(133, 130, 130);
+  justify-content: center;
+}
+
+.footer-tienda ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+}
+
+.footer-tienda ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-tienda nav ul li a:hover {
+  color: yellow;
+}
+.footer-tienda ul li a:hover {
+  color: yellow;
+}
+
+/*Otros juegos*/
+
+/*Header*/
+
+.header-otros-juegos {
+  color: #fff;
+  background-color: #000;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.header-otros-juegos img {
+  width: 150px;
+  margin-right: 200px;
+}
+
+/*Section*/
+.main-otros-juegos {
+  background-color: #0000009a;
+}
+
+.galeria img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.galeria {
+  width: 90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galeria img:hover {
+  border: 3px solid rgb(141, 0, 0);
+}
+
+.main-otros-juegos p {
+  color: #fff;
+  font-size: 25px;
+}
+
+/*Footer Otros Juegos*/
+
+.footer-otros-juegos {
+  background: #000000;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.footer-otros-juegos h3 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.footer-otros-juegos ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-otros-juegos ul li a {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px;
+}
+
+/*Tesoros*/
+
+/*Header tesoros*/
+.header-tesoros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-full-screen-gold-coin-financial-industry-background-image_248292.jpg");
+}
+.header-tesoros h1 {
+  background-color: #000;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.header-tesoros nav {
+  margin-left: auto;
+}
+.header-tesoros nav ul li {
+  list-style: none;
+  padding: 15px;
+  display: inline-block;
+  background-color: rgb(241, 241, 0);
+  border: 2px solid #000;
+}
+
+.header-tesoros nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Main*/
+
+.main-tesoro {
+  background-image: url("https://i.pinimg.com/originals/e4/01/e6/e401e6cba24ae610dcac067052a62dee.jpg");
+}
+
+.tesoros-card {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.tesoros-card .card {
+  border: 5px solid #fbff00;
+}
+
+/*Footer Tesoros*/
+
+.footer-tesoros {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-tesoros ul li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+}
+
+/*Enemigos*/
+
+.header-enemigos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+}
+
+.header-enemigos h1 {
+  margin-left: 50%;
+}
+
+.header-enemigos nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.header-enemigos nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*Main*/
+.fondo-black {
+  background-color: #000;
+}
+
+.enemigos img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.enemigos {
+  width: 90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*Footer*/
+
+.footer-enemigos {
+  background-color: #3d3d3d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-enemigos ul li{
+  list-style: none;
+  display: inline-block;
+  height: 150px;
+  margin-top: 25px;
+
+}
+
+.footer-enemigos ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 25px;
+}
+
+
 /* Responsive */
 
 @media (max-width: 320px) {
@@ -178,7 +459,7 @@
     padding: none;
   }
 
-  .header-index nav ul li{
+  .header-index nav ul li {
     display: block;
   }
   .contenedor {
@@ -204,7 +485,6 @@
   }
 }
 
-
 @media (max-width: 375px) {
   .header-index h1 {
     display: none;
@@ -220,10 +500,9 @@
     padding: 0;
   }
 
-   
-.header-index nav ul li{
-  display: block;
-}
+  .header-index nav ul li {
+    display: block;
+  }
 
   .contenedor {
     display: inline;
@@ -249,17 +528,13 @@
     margin-right: 20px;
     width: 150px;
     height: 100px;
-    
   }
 }
 
-
-
-@media (max-width:425px){
-  .header-index img{
+@media (max-width: 425px) {
+  .header-index img {
     display: flex;
     margin: 0;
-    
   }
   .header-index img:hover {
     margin: 0;
@@ -272,7 +547,7 @@
     border: none;
     padding: 0;
   }
-  .header-index h1{
+  .header-index h1 {
     text-align: center;
     padding: 0px;
   }
@@ -292,12 +567,10 @@
     margin-right: 20px;
     width: 150px;
     height: 100px;
-    
   }
 }
 
-@media (max-width:768px){
-
+@media (max-width: 768px) {
   .header-index img:hover {
     width: 150px;
     height: auto;
@@ -313,14 +586,14 @@
   }
 }
 
-@media (min-width:1024px) and (max-width:1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   .contenedor {
-    display: grid ;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 100px;
   }
 
   .card {
     margin-top: 15px;
-  } 
+  }
 }
